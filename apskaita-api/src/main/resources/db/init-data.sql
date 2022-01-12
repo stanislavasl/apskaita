@@ -1,4 +1,4 @@
-INSERT INTO SASKAITU_PLANAS(id, name, category, purpose)
+INSERT INTO ACCOUNTS(id, name, category, purpose)
 VALUES ('1240', 'Kitų įrenginių, prietaisų ir įrankių įsigijimo savikaina', 'turtas', 'detali'),
        ('1247', 'Kitų įrenginių, prietaisų ir įrankių įsigijimo savikainos nusidėvėjimas (−)', 'turtas', 'detali'),
        ('2010', 'Žaliavų, medžiagų ir komplektavimo detalių įsigijimo savikaina', 'turtas', 'detali'),
@@ -23,6 +23,11 @@ VALUES ('1240', 'Kitų įrenginių, prietaisų ir įrankių įsigijimo savikaina
        ('6000', 'Parduotų prekių sąnaudos', 'sąnaudos', 'detali'),
        ('6001', 'Suteiktų paslaugų sąnaudos', 'sąnaudos', 'detali'),
        ('6302', 'Išmokų tretiesiems asmenims sąnaudos', 'sąnaudos', 'detali'),
-       ('6302', 'Darbuotojų darbo užmokestis ir su juo susijusios sąnaudos', 'sąnaudos', 'detali'),
-       ('6302', 'Ilgalaikio turto amortizacijos, nusidėvėjimo sąnaudos', 'sąnaudos', 'detali'),
+       ('6304', 'Darbuotojų darbo užmokestis ir su juo susijusios sąnaudos', 'sąnaudos', 'detali'),
+       ('6306', 'Ilgalaikio turto amortizacijos, nusidėvėjimo sąnaudos', 'sąnaudos', 'detali'),
        ('6312', 'Kitos veiklos sąnaudos', 'sąnaudos', 'detali');
+
+INSERT INTO CLIENTS(id, name)
+VALUES ('302248848', 'UAB AAAAAA'),
+       ('303245987', 'UAB BBBbb');
+
